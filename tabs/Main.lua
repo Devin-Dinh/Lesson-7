@@ -13,7 +13,7 @@ end
 -- This function gets called once every frame
 function draw()
     -- This sets a dark background color 
-    background(255, 226, 0, 255)
+    background(0, 0, 0, 255)
     
     --This sets the line thickness
     strokeWidth(5)
@@ -21,5 +21,5 @@ function draw()
     --Do your drawing here
     
     sprite("Dropbox:Blue Pause Button", WIDTH/2, HEIGHT/2, 500, 500)
-
-end
+ 
+end 
